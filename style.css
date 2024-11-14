@@ -1,0 +1,87 @@
+/* Efek transisi tema */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Tema Terang */
+  body.light-theme {
+    background-color: #f2f6fa;
+    color: #333;
+  }
+  
+  .light-theme .card {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .light-theme .btn-toggle {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+  
+  .light-theme .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Tema Gelap */
+  body.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-theme .card {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+  }
+  
+  .dark-theme .btn-toggle {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  .dark-theme .btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+    color: #fff;
+  }
+  
+  /* Card dan Hover Effect */
+  .card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Tombol Tema */
+  .btn-toggle {
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Tambahan Gaya untuk Buku */
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  /* Transisi Halus */
+  * {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
